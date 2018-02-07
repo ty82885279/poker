@@ -1,0 +1,22 @@
+/*
+ * HTML5 ENGINE AND GAME CREATED BY GAME CLOUD
+ * http://gamecloudnetwork.com
+ */
+
+/* setup the stage here */
+#screens{ position:absolute; z-index: 100; pointer-events:none}
+#screens .page{}
+
+#messages{ position:absolute; z-index: 200; pointer-events:none; }
+#messages .page{}
+
+#platform{ position:absolute; z-index: 300; pointer-events:none; }
+#platform .page{}
+
+html{ height:100%; width:100%; background-color:#EEEEEE; }
+body { height:100%; min-height:100%; background-size:cover;}
+
+#shell_main { width:1136px; height:640px; }
+#shell_main #shell_container { height:640px; position:relative; overflow:hidden;  }
+
+.displayObject{position:absolute;}

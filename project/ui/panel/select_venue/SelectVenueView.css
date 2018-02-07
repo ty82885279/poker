@@ -1,0 +1,33 @@
+/*
+ * HTML5 ENGINE AND GAME CREATED BY GAME CLOUD
+ * http://gamecloudnetwork.com
+ */
+
+#select_venue_view {pointer-events:auto; position: absolute; width:  100%; height:  100%; top: 0px; left: 0px;}
+#select_venue_view #select_venue_background{ position: absolute; width:  100%; height:  100%; top: 0px; left: 0px;}
+
+#select_venue_view #select_venue_container 					{position: relative; width:  1136px; height:  640px; top:   50%; margin-top: -320px;  left:50%;  margin-left: -568px;}
+#select_venue_view #select_venue_container #select_venue_title 	{position: absolute; width:  1036px; height:   91px; top:  20px; left: 20px; /* margin-left: -518px; */ text-align: center;}
+
+#select_venue_view #select_venue_container #venue_middle_card	{position: absolute; width:   650px; height:  321px; top: 180px; left:  50% ; margin-left: -325px}
+#select_venue_view #select_venue_container 	#pts				{ position: absolute; width: 210px; height:  89px; top:   2px;	left:   5px; }
+#select_venue_view #select_venue_container 	#coins				{ position: absolute; width:  275px; height: 220px; top:   2px;	left: 855px; }
+
+#select_venue_view #select_venue_container #list_container #back_button{
+    /* border: solid; */
+    position: absolute;
+    width: 80px;
+    top:55px;
+}
+#select_venue_view #select_venue_container #list_container #next_button{
+    /* border: solid; */
+    position: absolute;
+    width: 80px;
+    left: 1050px;
+    top: 55px;
+}
+
+
+#select_venue_view #list_container{position: absolute; width:  100%; height:  321px; top: 180px; overflow:hidden;}
+.gl_list_container_style {position: absolute; width:  740px; height:  321px; top: 0px; left:50%; margin-left:-370px; }
+.height60 {height:  63%; width: 55%;}

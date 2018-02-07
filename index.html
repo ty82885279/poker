@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome" />
+    <title>Project</title>
+
+    <!-- set the viewport information -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name='viewport' content='width=1136, user-scalable=0, minimal-ui'>
+
+    <!-- add fonts -->
+    <link href='./4399.css?family=Bevan' rel='stylesheet' type='text/css'>
+    <link href='./4399.css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+
+
+    <!-- include the global css -->
+    <link href="project/css/Global.css" rel="stylesheet" type="text/css" />
+    <link href="project/css/Stage.css" rel="stylesheet" type="text/css" />
+    <link href="project/css/Text.css" rel="stylesheet" type="text/css" />
+    <link href="project/css/UI.css" rel="stylesheet" type="text/css" />
+    <link href="project/css/Button.css" rel="stylesheet" type="text/css" />
+    <link href="project/ui/panel/game_view/quit/QuitView.css" rel="stylesheet" type="text/css"/>
+    <link href="project/ui/panel/game_view/hand/HandView.css" rel="stylesheet" type="text/css"/>
+    <link href="project/ui/panel/game_view/deck/DeckView.css" rel="stylesheet" type="text/css"/>
+    <link href="project/ui/panel/game_view/dealer/DealerHandView.css" rel="stylesheet" type="text/css"/>
+    <link href="project/ui/panel/game_view/player_hand/PlayerHandView.css" rel="stylesheet" type="text/css"/>
+    <link href="project/ui/panel/game_view/round_over/RoundOverView.css" rel="stylesheet" type="text/css"/>
+    <link href="project/ui/panel/game_view/ace_message/AceMessageView.css" rel="stylesheet" type="text/css"/>
+    <link href="project/ui/panel/game_view/bottom/BottomView.css" rel="stylesheet" type="text/css"/>
+    <link href="project/ui/panel/game_view/center/CenterView.css" rel="stylesheet" type="text/css"/>
+    <link href="project/ui/panel/game_view/center/ChipsView.css" rel="stylesheet" type="text/css"/>
+    <link href="project/ui/panel/game_view/points/PointsView.css" rel="stylesheet" type="text/css"/>
+    <link href="project/ui/panel/game_view/coins/CoinsView.css" rel="stylesheet" type="text/css"/>
+    
+    <link href="project/ui/panel/select_venue/SelectVenueView.css" rel="stylesheet" type="text/css"/>
+    <link href="project/ui/panel/select_venue/venue/VenueCard.css" rel="stylesheet" type="text/css"/>
+    <link href="project/ui/panel/select_venue/purchease/PurcheaseView.css" rel="stylesheet" type="text/css"/>
+
+    <link href="project/ui/panel/bonus_panel/BonusPanel.css" rel="stylesheet" type="text/css"/>
+    <link href="project/ui/panel/game_view/menu/MenuButtons.css" rel="stylesheet" type="text/css"/>
+    <link href="project/ui/panel/preloading/PreloadingPanel.css" rel="stylesheet" type="text/css" />
+    <link href="project/ui/panel/game_view/GameView.css" rel="stylesheet" type="text/css"/>
+    <link href="project/ui/panel/game_view/pause/PauseView.css" rel="stylesheet" type="text/css"/>
+    <link href="project/ui/panel/title_view/TitleView.css" rel="stylesheet" type="text/css"/>
+    <link href="project/ui/panel/title_view/language/Language.css" rel="stylesheet" type="text/css"/>
+    <link href="project/ui/panel/title_view/language/LanguageCard.css" rel="stylesheet" type="text/css"/>
+
+    <!-- include all of the libs -->
+    <script src="./TweenMax.min.js"></script>
+    <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="lib/iscroll.js"></script>
+    <script type="text/javascript" src="lib/jquery.transit.js"></script>
+    <script type="text/javascript" src="lib/UITransitions.js"></script>
+
+    <!-- include framework after libs since they are dependent on tweenmax and jquery -->
+    <script type="text/javascript" src="lib/fu/fu.js"></script>
+    <script type="text/javascript" src="lib/fu/gamekit.js"></script>
+
+    <!-- include Resources, Lang & Tools -->
+    <script type="text/javascript" src="project/ui/panel/AssetManager.js"></script>
+    <script type="text/javascript" src="project/Resources.js"></script>
+    <script type="text/javascript" src="project/Tools.js"></script>
+    <script type="text/javascript" src="project/Config.js"></script>
+    <script type="text/javascript" src="project/Lang.js"></script>
+
+    <!-- include baseclasses -->
+    <script type="text/javascript" src="project/ui/panel/Base_Panel.js"></script>
+    <script type="text/javascript" src="project/states/Base_State.js"></script>
+
+    <!-- include local storage -->
+    <script type="text/javascript" src="project/cookie/LocalStorageController.js"></script>
+
+    <!-- include states -->
+
+
+    <script type="text/javascript" src="project/states/preloading/PreloadingState.js"></script>
+    
+    <script type="text/javascript" src="project/states/game/GameState.js"></script>
+    <script type="text/javascript" src="project/states/main/MainState.js"></script>
+    <script type="text/javascript" src="project/states/main/substates/MainState_SelectVenueState.js"></script>
+    <script type="text/javascript" src="project/states/main/substates/MainState_BonusState.js"></script>
+    <script type="text/javascript" src="project/states/main/substates/MainState_TitleState.js"></script>
+    <script type="text/javascript" src="project/states/main/substates/MainState_RoundOverState.js"></script>
+    <script type="text/javascript" src="project/states/main/substates/MainState_PurchaseState.js"></script>
+
+    <!-- Controllers -->
+    <script type="text/javascript" src="project/ui/Transitions.js"></script>
+    <script type="text/javascript" src="project/controller/Controller.js"></script>
+    <script type="text/javascript" src="project/controller/GameController.js"></script>
+    <script type="text/javascript" src="project/controller/BackendController.js"></script>
+    <script type="text/javascript" src="project/controller/UserController.js"></script>
+
+    <!-- Views -->
+    <script type="text/javascript" src="project/ui/buttons/Base_ImageButton.js"></script>
+    <script type="text/javascript" src="project/ui/buttons/Base_LanguageImageButton.js"></script>
+    <script type="text/javascript" src="project/ui/buttons/Base_CardsImageButton.js"></script>
+    <script type="text/javascript" src="project/ui/buttons/Base_FlagImageButton.js"></script>
+    <script type="text/javascript" src="project/ui/buttons/Base_CoinImageButton.js"></script>
+    <script type="text/javascript" src="project/ui/buttons/Base_AnimatedImageButton.js"></script>
+    <script type="text/javascript" src="project/ui/buttons/Base_MuteImageButton.js"></script>
+    <script type="text/javascript" src="project/ui/buttons/Base_BingoAnimatedImageButton.js"></script>
+    <script type="text/javascript" src="project/ui/buttons/Base_CSSButton.js"></script>
+    <script type="text/javascript" src="project/ui/panel/preloading/PreloadingPanel.js"></script>
+    <script type="text/javascript" src="project/ui/panel/bonus_panel/BonusPanel.js"></script>
+    <script type="text/javascript" src="project/ui/panel/game_view/GameView.js"></script>
+   
+    <script type="text/javascript" src="project/ui/panel/game_view/pause/PauseView.js"></script>
+    <script type="text/javascript" src="project/ui/panel/game_view/quit/QuitView.js"></script>
+    <script type="text/javascript" src="project/ui/panel/game_view/hand/HandView.js"></script>
+    <script type="text/javascript" src="project/ui/panel/game_view/deck/DeckView.js"></script>
+    <script type="text/javascript" src="project/ui/panel/game_view/dealer/DealerHandView.js"></script>
+    <script type="text/javascript" src="project/ui/panel/game_view/ace_message/AceMessageView.js"></script>
+    <script type="text/javascript" src="project/ui/panel/game_view/bottom/BottomView.js"></script>
+    <script type="text/javascript" src="project/ui/panel/select_venue/SelectVenueView.js"></script>
+    <script type="text/javascript" src="project/ui/panel/select_venue/venue/VenueCard.js"></script>
+    <script type="text/javascript" src="project/ui/panel/select_venue/purchease/PurcheaseView.js"></script>
+    <script type="text/javascript" src="project/ui/panel/game_view/center/CenterView.js"></script>
+    <script type="text/javascript" src="project/ui/panel/game_view/center/ChipsView.js"></script>
+    <script type="text/javascript" src="project/ui/panel/game_view/points/PointsView.js"></script>
+    <script type="text/javascript" src="project/ui/panel/game_view/coins/CoinsView.js"></script>
+    <script type="text/javascript" src="project/ui/panel/game_view/player_hand/PlayerHandView.js"></script>
+    <script type="text/javascript" src="project/ui/panel/game_view/round_over/RoundOverView.js"></script>
+    <script type="text/javascript" src="project/ui/panel/game_view/menu/MenuButtons.js"></script>
+    <script type="text/javascript" src="project/ui/panel/game_view/menu/MuteButton.js"></script>
+    <script type="text/javascript" src="project/ui/panel/title_view/TitleView.js"></script>
+    <script type="text/javascript" src="project/ui/panel/title_view/language/Language.js"></script>
+    <script type="text/javascript" src="project/ui/panel/title_view/language/LanguageCard.js"></script>
+
+
+
+
+    <!-- Logic -->
+    <script type="text/javascript" src="project/logic/economy/CoinsCounter.js"></script>
+    <script type="text/javascript" src="project/logic/economy/XPCounter.js"></script>
+    <script type="text/javascript" src="project/logic/evaluator/Evaluator.js"></script>
+    <script type="text/javascript" src="project/logic/cards/CardsGenerator.js"></script>
+    <script type="text/javascript" src="project/logic/cards/CardsManager.js"></script>
+
+    
+
+
+    <!-- Shared libs -->
+    <!-- <script type="text/javascript" src="gcn/requests/Api.js"></script>
+    <script type="text/javascript" src="gcn/requests/Request.js"></script>
+    <script type="text/javascript" src="gcn/requests/GamesRequest.js"></script>
+    <script type="text/javascript" src="gcn/widget/action/GameChildAction.js"></script>
+    <script type="text/javascript" src="gcn/data_types/Game.js"></script>
+    <script type="text/javascript" src="gcn/data_types/User.js"></script>
+    <script type="text/javascript" src="gcn/data_types/ActionItem.js"></script>
+    <script type="text/javascript" src="gcn/data_types/Achievement.js"></script>
+    <script type="text/javascript" src="gcn/data_types/Product.js"></script>
+    <script type="text/javascript" src="gcn/data_types/GameToPortalActivity.js"></script>  -->
+
+    <!-- Entry point -->
+    <script type="text/javascript" src="project/main.js"></script>
+
+        <!-- Zibbo API -->
+    <script type="text/javascript" src="./js/game.js"></script>
+
+</head>
+<body>
+<div id="fb-root"> </div>
+<div id="shell_main">
+    <div id="shell_container">
+        <div id="platform"></div>
+        <div id="messages"></div>
+        <div id="screens"></div>
+    </div>
+</div>
+</body>
+</html>
+

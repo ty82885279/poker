@@ -1,0 +1,22 @@
+
+/*
+ * HTML5 ENGINE AND GAME CREATED BY GAME CLOUD
+ * http://gamecloudnetwork.com
+ */
+
+#dealer_hand_view			 		{ position: absolute; width:   100%; height:  100%;}
+#dealer_hand_view #dealer_hand_bg  	{ position: absolute; width:  107px; height: 141px;}
+
+
+#card	{ position: absolute; height: 100%; width:   108px;}
+.dh_card_1	{ position: absolute; height: 100%; width:   100%;}
+
+
+#counter_dealer_container		{ position: absolute; width:   108px; height: 100%; text-align: center; z-index: 2;}
+
+
+
+#counter_dealer_container #counter_dealer_bg		{ position: absolute; text-align: center; width:  88px; height: 65px;bottom: 40px; left: 50%; margin-left: -43px;}
+#counter_dealer_container #counter_dealer_lavel		{ position: absolute; text-align: center; width:  88px; height: 65px;bottom: 38px; left: 50%; margin-left: -43px;}
+
+.counter_dealer_default_bg{ position: absolute; text-align: center; width:  88px; height:93px; top: 50%; margin-top: -35px; left: 50%; margin-left: -44px;}

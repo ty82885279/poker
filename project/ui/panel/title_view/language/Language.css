@@ -1,0 +1,18 @@
+/*
+ * HTML5 ENGINE AND GAME CREATED BY GAME CLOUD
+ * http://gamecloudnetwork.com
+ */
+
+#language_view { pointer-events:auto; }
+
+#language_view #language_Container {pointer-events:auto; position: absolute; width: 1137px; height: 640px; top:   50%; margin-top: -320px;  left:50%;  margin-left: -568px;}
+#language_view #language_Container #current_flag {top:117px; width: 112px; height:  70px; position: absolute; left: 50%; margin-left: -56px}
+#language_view #language_Container #quit_button  {top:20px; width: 102px; height:  97px; position: absolute; left:1017px;}
+
+#language_view #language_Container #title {top:20px; width: 1019px; height: 593px; text-align: center;  color:#404040; position: absolute; left: 50%; margin-left: -509px}
+
+
+#language_view #background {position: absolute; width: 100%; height: 100%;  z-index: -1;  width: 100%; height: 100%; background-color: rgba(32,32,32,0.65);}
+
+
+.language_view_buttons_text {position: absolute; top: 0px; width: 100%; height:68px; margin-top: 38px; text-align: center;}

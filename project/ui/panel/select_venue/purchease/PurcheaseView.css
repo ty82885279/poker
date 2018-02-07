@@ -1,0 +1,19 @@
+/*
+ * HTML5 ENGINE AND GAME CREATED BY GAME CLOUD
+ * http://gamecloudnetwork.com
+ */
+
+#pur_view 	  { pointer-events:auto; width: 100%; height: 100%; background-color: rgba(32,32,32,0.55);}
+#pur_view #pur_background {position: absolute; width: 581px; height: 418px;  left: 50%; margin-left: -291px;top: 50%;margin-top: -220px; }
+
+#pur_view #pur_Container {pointer-events:auto; position: absolute; width: 1137px; height: 640px; top:   50%; margin-top: -320px;  left:50%;  margin-left: -568px;}
+
+#pur_view #pur_Container #pur_logo {top: 115px; width: 400px; height: 200px; text-align: center;  ; position: absolute; left: 50%; margin-left: -200px}
+#pur_view #pur_Container #close_button {top:80px; width: 102px; height:  97px; position: absolute; left: 800px;}
+#pur_view #pur_Container #message_container	{ position: absolute; width:  450px; height: 141px; top:  320px; left: 50%; margin-left: -225px; text-align: center;}
+
+#pur_view #pur_Container #button_container {position: absolute; top:450px; left:50%; width: 336px; height: 127px; margin-left: -168px;}
+#pur_view #pur_Container #button_container #pur_button {position: absolute; top:0px;  width: 100%; height: 100%; cursor:pointer;}
+
+.logo_style {width: 100%;}
+.pur_btn_coin {position: absolute; top:50% !important; margin-top:-58px; width: 80%; left:  20%; text-align: center;}

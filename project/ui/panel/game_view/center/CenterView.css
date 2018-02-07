@@ -1,0 +1,29 @@
+
+
+
+#center				{position: absolute; 	width: 100%;	height: 100%;}
+#center	#background	{position: absolute; 	width: 100%;	height: 100%;}
+#center	#add_chips	{position: absolute; 	width: 637px;	height:  30%; top:  52px; left:   0px; text-align: center;}
+#center	#chips_white{position: absolute; 	width: 101px;	height: 90px; top:  30px; left:  30px;}
+#center	#chips_red	{position: absolute; 	width: 101px;	height: 90px; top:  30px; left: 135px;}
+#center	#chips_green{position: absolute; 	width: 101px;	height: 90px; top:  30px; left: 240px;}
+#center	#chips_blue	{position: absolute; 	width: 101px;	height: 90px; top:  30px; left: 345px;}
+#center	#bet_contain{position: absolute;	width: 166px;	height:107px; top:  23px; left: 444px;	text-align: center;}
+#center	#bet_alert	{position: absolute; 	width: 251px;	height:101px; top:  20px; left: 600px; text-align: center;}
+#center #bet_reduce	{ height: 64px; width: 250px; position: absolute; bottom: -32px; left: 50%; margin-left: -125px; }
+
+#betReduce				{ position: absolute; 	width: 100%;	height: 100%;}
+#betReduce #reduce_bg   {position: absolute; 	width: 100%;	height: 100%; top: 0%; text-align: center; }
+#betReduce #reduce_txt  {position: absolute; 	width: 100%;	height:  60%; top: 22%; left:28%;}
+
+#bet_contain_frame				{position: absolute; 	width: 100%;	height: 100%;}
+#bet_contain_frame #frame_bet	{position: absolute; 	width: 100%;	height: 100%;}
+#bet_contain_frame #title_bet	{position: absolute; 	width: 100%;	height:  60%; top: 11%; text-align: center;}
+#bet_contain_frame #lvl_bet		{position: absolute; 	width: 100%;	height:  60%; top: 26%; text-align: center;}
+
+#bet_alert_frame				{position: absolute; 	width: 100%;	height: 100%;}
+#bet_alert_frame #frame_alert	{position: absolute; 	width: 100%;	height: 100%;}
+#bet_alert_frame #alert			{position: absolute; 	width: 76px;	height: 76px;top:10px;left: 15px;}
+#bet_alert_frame #title_alert	{position: absolute; 	width:  80%;	height:  60%; top: 7%; text-align: center; left:60%; margin-left: -40%}
+#bet_alert_frame #lvl_alert		{position: absolute; 	width:  80%;	height:  60%; top: 33%; text-align: center;left:60%; margin-left: -40%}
+

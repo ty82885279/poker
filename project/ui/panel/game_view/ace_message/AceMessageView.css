@@ -1,0 +1,17 @@
+/*
+ * HTML5 ENGINE AND GAME CREATED BY GAME CLOUD
+ * http://gamecloudnetwork.com
+ */
+
+#ace_view { pointer-events:auto;  width: 100%; height: 100%; background-color: rgba(32,32,32,0.55);}
+#ace_view #background {position: absolute; width: 846px; height: 291px;  left: 50%; margin-left: -423px;top: 50%;margin-top: -260px;}
+
+#ace_view #ace_Container {pointer-events:auto; position: absolute; width: 1137px; height: 640px; top:   50%; margin-top: -320px;  left:50%;  margin-left: -568px;}
+
+#ace_view #ace_Container #title {top:108px; width: 750px; height: 542px; text-align: center;  ; position: absolute; left: 50%; margin-left: -375px}
+#ace_view #ace_Container #all_cards_container	{ position: absolute; width:  424px; height: 141px; top:  170px; left: 50%; margin-left: -212px; }
+
+#ace_view #ace_Container #buttons_container {position: absolute; top:350px; left:50%; width: 400px; margin-left: -200px;}
+
+#ace_view #ace_Container #buttons_container #continue_button_container {position: absolute; top:0px; left:50%;  margin-left: -236px; width: 498px; height: 128px; cursor:pointer;}
+#ace_view #ace_Container #buttons_container #continue_button_container #continue_button{  width: 100%; height: 100%; }

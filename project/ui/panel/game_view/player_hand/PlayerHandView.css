@@ -1,0 +1,25 @@
+
+/*
+ * HTML5 ENGINE AND GAME CREATED BY GAME CLOUD
+ * http://gamecloudnetwork.com
+ */
+
+#player_hand_view			 { position: absolute; width:   100%; height:  100%;}
+#player_hand_view #player_hand_bg  { position: absolute; width:  223px; height: 319px;}
+
+
+#player_hand_view #plyr_title	{ position: absolute; width: 100%; height: 100px; top: 10px; text-align: center;}
+#player_hand_view #next_bttn	{ position: absolute; width:220px; height:  63px; top:255px; left:   50%; margin-left: -110px;}
+#player_hand_view #next_bttn	#next_bg	{ position: absolute; width: 100%; height:  100%;}
+#player_hand_view #next_bttn	#next_txt	{ position: absolute; width:175px; height:   80%;  bottom: 2px;left: 63%; margin-left: -95px;}
+
+
+#player_card	{ position: absolute; width: 100%; height: 100%; top: 55px; left:   5px;}
+.card_1	{ position: absolute; width:  68%; height: 219px; top: 0px;left:   0;}
+.card_2	{ position: absolute; width:  68%; height: 219px; top: 0px;left:   0;}
+.card_3	{ position: absolute; width:  68%; height: 219px; top: 0px;left:   0;}
+
+
+.ph_card_1	{ position: absolute;  width:  100%; }
+.ph_card_2	{ position: absolute; width:  100%; z-index: 2;}
+.ph_card_3	{ position: absolute; width:  100%;}

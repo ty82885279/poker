@@ -1,0 +1,12 @@
+
+
+
+
+#chips				{position: absolute; 	width: 100%;	height: 100%;}
+#chips	#chips_bg	{position: absolute; 	width: 100%;	height: 100%;}
+#chips	#counter	{ position: absolute; width: 100%; height: 50%;	top:  20px;	text-align: center; }
+#chips	#counter_lvl{ position: absolute; width: 100%; height: 50%;	top:  20px;	text-align: center; }
+#title_alert{margin-top:6px;}
+.chip_counter_bg	{ height: 100%;	 }
+
+

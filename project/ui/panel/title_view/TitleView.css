@@ -1,0 +1,28 @@
+/*
+ * HTML5 ENGINE AND GAME CREATED BY GAME CLOUD
+ * http://gamecloudnetwork.com
+ */
+
+#title_view 								{top:0px; left:0px; width: 100%; height: 100%; position: absolute;}
+#title_view #title_background 				{top:0px; left:0px; width: 100%; height: 100%; position: absolute;}
+
+#title_view #title_container 								{top:   50%; 			 margin-top:  -320px; width:1136px; height: 640px; position: absolute; pointer-events:auto;  left:50%;  margin-left: -568px;}
+#title_view #title_container #title_image 					{top:  60px; left: 178px; /* margin-left: -390px; */ width: 780px; height: 374px; position: relative;}
+#title_view #title_container #title_stburst 				{top:  0px; left: 310px; /* margin-left: -250px; */ width: 500px; height: 500px; position: absolute;}
+#title_view #title_container #button_container 				{top:  80px; left:  50%; margin-left: -249px; width: 498px; height: 128px; position: relative;}
+#title_view #title_container #button_container #play_glow 	{top:-125px; left:  50%; margin-left: -372px; width: 744px; height: 376px; position: absolute; }
+#title_view #title_container #button_container #play_button {top:   0px; left:  0px;position: absolute; }
+#title_view #title_container #button_more	 				{top:  10px; left: 10px;  width: 245px; height: 132px; position:absolute;}
+
+#title_view #title_container #button_lang	 				{top:  10px; left:878px;  width: 245px; height: 132px; position:absolute;}
+
+#title_view #title_container #spil_logo {pointer-events:auto; position: absolute; width:  202px; height:  50px; bottom: 2%; 					  left: 2%;}
+
+.spil_logo_style {pointer-events:auto; position: absolute; width:  202px; height:  50px; bottom: 2%; left: 2%;} 
+
+.title_view_buttons_text {position: absolute; top: 20% !important; width: 100%; height:68px; text-align: center;line-height: 40px;text-rendering: optimizeLegibility}
+.title_view_buttons_more {position: absolute; top: 16% !important; width: 100%; height:68px; text-align: center;line-height: 40px;text-rendering: optimizeLegibility}
+.title_view_lang_button_text {position: absolute; top: 0px; width: 100%; height:68px; margin-top: 8px; text-align: center;text-rendering: optimizeLegibility} 
+
+
+

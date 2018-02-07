@@ -1,0 +1,122 @@
+/*
+ * HTML5 ENGINE AND GAME CREATED BY GAME CLOUD
+ * http://gamecloudnetwork.com
+ */
+
+.cssButton{ position:absolute; cursor:pointer; user-select: none; pointer-events:auto; }
+.cssButton #background_container{ position:relative; z-index:1; width:100%; height:100%; }
+.cssButton #text_container{ text-align:center; position:absolute; z-index:2; top:0px; display:table; pointer-events:none; }
+.cssButton span{ display: table-cell; text-align:center; vertical-align: middle; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+
+.imageButton{ position:absolute; cursor:pointer; user-select: none; pointer-events:auto; }
+.imageButton #background_container{ position:relative; z-index:1; }
+.imageButton #text_container{ text-align:center; position:absolute; z-index:2; top:10px; display:table; pointer-events:none; }
+.imageButton span{ display: table-cell; vertical-align: middle; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+
+/*.buttonStyle_light { font-family:"Sanchez"; font-size:50px; text-transform:uppercase;   }
+.buttonStyle_light span{ -webkit-transition:color 300ms ease-in;  }
+.buttonStyle_light .textUp{ color:#000000; }
+.buttonStyle_light .textLocked{ color:#000000; }*/
+
+.buttonStyle_pink { font-family:"Montserrat"; font-size:30px; text-transform:uppercase;   }
+.buttonStyle_pink span{ -webkit-transition:color 300ms ease-in;  }
+.buttonStyle_pink #background_container{ border-radius:6px; }
+.buttonStyle_pink .textUp{ color:#FFFFF3; }
+.buttonStyle_pink .textOver{ color:#f7adb5; }
+.buttonStyle_pink .textDown{ color:#f7adb5; }
+.buttonStyle_pink .textLocked{ color:#FFFFF3; }
+.buttonStyle_pink .backgroundUp{ background-color:#F65B6D; }
+.buttonStyle_pink .backgroundOver{ background-color:#F65B6D; }
+.buttonStyle_pink .backgroundDown{ background-color:#F65B6D; }
+.buttonStyle_pink .backgroundLocked{ background-color:#F65B6D; }
+
+
+.buttonStyle_blue{ font-family:"Montserrat"; font-size:30px; text-transform:uppercase;   }
+.buttonStyle_blue span{ -webkit-transition:color 300ms ease-in;  }
+.buttonStyle_blue #background_container{ border-radius:6px; }
+.buttonStyle_blue .textUp{ color:#FFFFF3; }
+.buttonStyle_blue .textOver{ color:#f7adb5; }
+.buttonStyle_blue .textDown{ color:#f7adb5; }
+.buttonStyle_blue .textLocked{ color:#FFFFF3; }
+.buttonStyle_blue .backgroundUp{ background-color:#46b4f1; }
+.buttonStyle_blue .backgroundOver{ background-color:#46b4f1; }
+.buttonStyle_blue .backgroundDown{ background-color:#46b4f1; }
+.buttonStyle_blue .backgroundLocked{ background-color:#46b4f1; }
+
+.buttonStyle_darkblue{ font-family:"Montserrat"; font-size:30px; text-transform:uppercase;   }
+.buttonStyle_darkblue span{ -webkit-transition:color 300ms ease-in;  }
+.buttonStyle_darkblue #background_container{ border-radius:6px; }
+.buttonStyle_darkblue .textUp{ color:#FFFFF3; }
+.buttonStyle_darkblue .textOver{ color:#f7adb5; }
+.buttonStyle_darkblue .textDown{ color:#f7adb5; }
+.buttonStyle_darkblue .textLocked{ color:#FFFFF3; }
+.buttonStyle_darkblue .backgroundUp{ background-color:#4D5DD7; }
+.buttonStyle_darkblue .backgroundOver{ background-color:#4D5DD7; }
+.buttonStyle_darkblue .backgroundDown{ background-color:#4D5DD7; }
+.buttonStyle_darkblue .backgroundLocked{ background-color:#4D5DD7; }
+
+.buttonStyle_orange{ font-family:"Montserrat"; font-size:30px; text-transform:uppercase;   }
+.buttonStyle_orange span{ -webkit-transition:color 300ms ease-in;  }
+.buttonStyle_orange #background_container{ border-radius:6px; }
+.buttonStyle_orange .textUp{ color:#FFFFF3; }
+.buttonStyle_orange .textOver{ color:#f7adb5; }
+.buttonStyle_orange .textDown{ color:#f7adb5; }
+.buttonStyle_orange .textLocked{ color:#FFFFF3; }
+.buttonStyle_orange .backgroundUp{ background-color:#ff9a66; }
+.buttonStyle_orange .backgroundOver{ background-color:#ff9a66; }
+.buttonStyle_orange .backgroundDown{ background-color:#ff9a66; }
+.buttonStyle_orange .backgroundLocked{ background-color:#ff9a66; }
+
+
+.buttonStyle_cream{ font-family:"Montserrat"; font-size:30px; text-transform:uppercase;   }
+.buttonStyle_cream span{ -webkit-transition:color 300ms ease-in;  }
+.buttonStyle_cream #background_container{ border-radius:6px; border: 5px solid #c6c7b5; }
+.buttonStyle_cream .textUp{ color:#504845; }
+.buttonStyle_cream .textOver{ color:#504845; }
+.buttonStyle_cream .textDown{ color:#504845; }
+.buttonStyle_cream .textLocked{ color:#504845; }
+.buttonStyle_cream .backgroundUp{ background-color:#fefff9; }
+.buttonStyle_cream .backgroundOver{ background-color:#fefff9; }
+.buttonStyle_cream .backgroundDown{ background-color:#fefff9; }
+.buttonStyle_cream .backgroundLocked{ background-color:#fefff9; }
+
+.buttonStyle_grey { font-family:"Montserrat"; font-size:30px; text-transform:uppercase;   }
+.buttonStyle_grey span{ -webkit-transition:color 300ms ease-in;  }
+.buttonStyle_grey #background_container{ border-radius:6px; }
+.buttonStyle_grey .textUp{ color:#FFFFF3; }
+.buttonStyle_grey .textOver{ color:#f7adb5; }
+.buttonStyle_grey .textDown{ color:#f7adb5; }
+.buttonStyle_grey .textLocked{ color:#FFFFF3; }
+.buttonStyle_grey .backgroundUp{ background-color:#444444; }
+.buttonStyle_grey .backgroundOver{ background-color:#444444; }
+.buttonStyle_grey .backgroundDown{ background-color:#444444; }
+.buttonStyle_grey .backgroundLocked{ background-color:#444444; }
+
+.buttonStyle_purple{ font-family:"Montserrat"; font-size:30px; text-transform:uppercase;   }
+.buttonStyle_purple span{ -webkit-transition:color 300ms ease-in;  }
+.buttonStyle_purple #background_container{ border-radius:6px; }
+.buttonStyle_purple .textUp{ color:#FFFFF3; }
+.buttonStyle_purple .textOver{ color:#f7adb5; }
+.buttonStyle_purple .textDown{ color:#f7adb5; }
+.buttonStyle_purple .textLocked{ color:#FFFFF3; }
+.buttonStyle_purple .backgroundUp{ background-color:#AA5CD6; }
+.buttonStyle_purple .backgroundOver{ background-color:#AA5CD6; }
+.buttonStyle_purple .backgroundDown{ background-color:#AA5CD6; }
+.buttonStyle_purple .backgroundLocked{ background-color:#AA5CD6; }
+
+.buttonSize_title{ width:530px; height:98px; }
+.buttonSize_title #text_container{ text-align:center; position:absolute; z-index:2; top:0px; display:table; height:98px; width:100%; }
+
+.buttonSize_gameplay_menu{ width:412px; height:104px; }
+.buttonSize_gameplay_menu #text_container{ text-align:center; position:absolute; z-index:2; top:0px; display:table; height:104px; width:100%; }
+
+.buttonSize_purchase{ width:304px; height:80px;}
+.buttonSize_purchase #text_container{ text-align:center; position:absolute; z-index:2; top:0px; display:table; height:80px; width:100%; }
+
+.buttonSize_powerup_gameplay{ width:466px; height:106px; }
+.buttonSize_powerup_gameplay #text_container{ text-align:center; position:absolute; z-index:2; top:0px; display:table; height:106px; width:100%; }
+
+.buttonSize_powerup_tile { width: 110px; height: 106px;}
+.buttonSize_powerup_tile #yellow_icon { width: 70px; height: 70px; left: 50px !important; top: 40px !important;}
+
+.buttonSize_level_grid{ width: 108px; height: 108px; }

@@ -1,0 +1,52 @@
+
+/*
+ * HTML5 ENGINE AND GAME CREATED BY GAME CLOUD
+ * http://gamecloudnetwork.com
+ */
+
+#hand_view			{ position: absolute; width:   146px; height:  100%;left: 50%; margin-left: -73px;}
+
+
+#hand_view #card_1		{ position: absolute; width:  100%; height: 192px;  top:  0px;}
+#hand_view #card_2		{ position: absolute; width:  100%; height: 192px;  top: 35px;}
+#hand_view #card_3		{ position: absolute; width:  100%; height: 192px;  top: 70px;}
+#hand_view #button_stand{ position: absolute; width: 174px; height:  63px;  bottom:0px; left: 50%; margin-left: -87px;}
+#hand_view #button_stand	#stand_bg	{ position: absolute; width: 100%; height:  100%;}
+#hand_view #button_stand	#stand_txt	{ position: absolute; width:120px; height:   80%;  bottom: 0px;left: 65%; margin-left: -64px; text-align: center;}
+
+#acehole{ position: absolute; width:  100%; text-align: center; top: 40px;}
+
+#hand_arrow{ position: absolute; width:  100%; text-align: center; top: 25px;}
+#hand_arrow #card_empty		{ position: absolute; width:  146px; height: 192px; /*margin-left: -78px;*/  top: 45px; }
+#hand_arrow #glow_image		{ position: absolute; width:  211px; height:258px; margin-left: -105px; text-align: center;  top: 35px; left: 50%; margin-top: -3px;}
+
+
+.hand_bg  { position: absolute; width:  100%; height: 192px;}
+
+#win	{ position: absolute; width:  202px; height: 98px; margin-left: -101px; text-align: center; top: 0px; left: 50%; z-index: 2;}
+
+#counter_container	{ position: absolute; width:  100%; height: 100%; text-align: center; }
+
+
+
+.counter_default_bg_first	{ position: absolute; text-align: center; width:  88px; height: 81px;bottom: 88px; left: 50%; margin-left: -44px;}
+.counter_default_text_first	{ position: absolute;text-align: center; width:  88px; height: 81px;bottom: 88px;left: 50%; margin-left: -44px;}
+.counter_default_bg_final	{ position: absolute; text-align: center; width:  88px; height: 81px;bottom: 70px; left: 50%; margin-left: -44px;}
+.counter_default_text_final	{ position: absolute;text-align: center; width:  88px; height: 81px;bottom: 70px;left: 50%; margin-left: -44px;}
+
+.counter_final_bg		{ position: absolute; text-align: center; width: 130px; height:143px;bottom: 20px; left: 50%; margin-left: -65px;}
+.counter_final_text		{ position: absolute;text-align: center; width:  88px; height: 81px;bottom: 45px;left: 50%; margin-left: -44px;}
+
+.counter_blackjack_bg	{ position: absolute; text-align: center; width: 130px; height:143px;bottom: 48px; left: 50%; margin-left: -65px;}
+
+.counter_stand_2_text	{ position: absolute; text-align: center; width:  88px; height: 81px;bottom: 57px;left: 50%; margin-left: -44px;}
+.counter_stand_3_text	{ position: absolute; text-align: center; width:  88px; height: 81px;bottom: 30px;left: 50%; margin-left: -44px;}
+
+.danger_final_bg		{ position: absolute; text-align: center; width: 213px; height:230px;bottom:-24px; left: 50%; margin-left:-106px; z-index: 1;}
+.danger_blackjack_bg	{ position: absolute; text-align: center; width: 213px; height:231px;bottom:  4px; left: 50%; margin-left:-106px; z-index: 1;}
+
+.alert_final_bg		{ position: absolute; text-align: center; width:  97px; height: 90px;bottom: 10px;  z-index: 1;}
+.alert_blackjack_bg	{ position: absolute; text-align: center; width:  97px; height: 90px;bottom: 38px;  z-index: 1;}
+
+
+.glow_style{ width:  81%;}

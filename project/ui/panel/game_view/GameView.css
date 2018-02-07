@@ -1,0 +1,49 @@
+/*
+ * HTML5 ENGINE AND GAME CREATED BY GAME CLOUD
+ * http://gamecloudnetwork.com
+ */
+#gameplay    {pointer-events:auto; position: absolute; width: 100%; height: 100%; }
+
+
+#gameplay #background		{ position: absolute; width:  100%; height:  100%; top: 0px; left: 0px;}
+#gameplay #background_venue		{ position: absolute; width:  100%; height:  100%; top: 0px; left: 0px;}
+#gameplay #hud_left			{ position: absolute; width:  50%; height: 100%;  margin-left:-346px; z-index: -1;}
+
+
+#gameplay #gameplay_panel   {pointer-events:auto; position: absolute; width: 1136px; height: 640px; top:   50%; margin-top: -320px;  left:50%;  margin-left: -568px;}
+#gameplay #gameplay_panel 	#dealer_container	{ position: absolute; width:  424px; height: 141px; top:  10px; left: 490px; }
+#gameplay #gameplay_panel	#blackjacklogo		{ position: absolute; width:  636px; height: 152px; top: 180px; left: 250px; }
+#gameplay #gameplay_panel 	#balls_left		 	{ position: absolute; width:   60px; height:  48px; top:   2px; left: 619px; text-align: center;}
+#gameplay #gameplay_panel 	#menu 				{ position: absolute; width:  209px; height:  97px; top:  95px; left:   5px; }
+#gameplay #gameplay_panel 	#powerups_container	{ position: absolute; width:  209px; height: 371px; top: 196px; left:   5px; }
+#gameplay #gameplay_panel 	#hand_container_1	{ position: absolute; width:  183px; height: 265px; 			left: 290px; bottom: 10px;}
+#gameplay #gameplay_panel 	#hand_container_2	{ position: absolute; width:  183px; height: 265px; 			left: 473px; bottom: 10px;}
+#gameplay #gameplay_panel 	#hand_container_3	{ position: absolute; width:  183px; height: 265px; 			left: 656px; bottom: 10px;}
+#gameplay #gameplay_panel 	#deck_container		{ position: absolute; width:  201px; height: 152px; top: 120px; left: 905px; }
+#gameplay #gameplay_panel 	#player_hand_container	{ position: absolute; width:  223px; height: 319px; 		left: 900px; bottom: 10px;}
+#gameplay #gameplay_panel 	#bottom				{ position: absolute; width:  886px; height: 251px; 			left: 250px; bottom: 0px;}
+#gameplay #gameplay_panel 	#pts				{ position: absolute; width:  800px; height:  89px; top:   2px;	left:   5px; }
+#gameplay #gameplay_panel 	#coins				{ position: absolute; width:  275px; height: 220px; top:   2px;	left: 855px; }
+
+
+
+#gameplay #gameplay_panel  #playground_container{ position: absolute; width:  916px; height: 473px; top:  85px; left: 217px; }
+
+
+
+
+#gameplay #gameplay_panel #powerups_container #powerup_items_container{ height:300px; z-index:10; top:73px; }
+#gameplay #gameplay_panel #powerups_container #powerup_image{margin-left: -40px; margin-top: -38px;}
+#gameplay #gameplay_panel #powerups_container .powerup_container{ height: 97px; margin-top: 0px; }
+#gameplay #gameplay_panel #powerups_container .powerup_container #bar_container{ left: 12px; top: 0px; z-index: 1; }
+#gameplay #gameplay_panel #powerups_container .powerup_container #image_container{  z-index: 2; }
+#gameplay #gameplay_panel #powerups_container .powerup_container #text_container{ z-index: 3; text-align: center;}
+#gameplay #gameplay_panel #powerups_container .powerup_container #button_container{ z-index: 4; left:12px; top:0px; }
+#gameplay #gameplay_panel #powerups_container .powerup_container #button_info				{ z-index: 6; left:100%; 	margin-left: -20px; width: 77px; height: 63px; top: 50%; margin-top: -25px; visibility: hidden;}
+#gameplay #gameplay_panel #powerups_container .powerup_container #message					{ width: 100%; height:100%;visibility: hidden;z-index: 6;}
+#gameplay #gameplay_panel #powerups_container .powerup_container #message	#message_frame	{ left:100%; margin-left: -15px; width: 577px; height:103px; top: 50%; margin-top: -51px; z-index: 6}
+#gameplay #gameplay_panel #powerups_container .powerup_container #message	#message_info	{ left:100%; margin-left:  45px; width: 410px; height:103px; top: 50%; margin-top: -51px; z-index: 6}
+#gameplay #gameplay_panel #powerups_container .powerup_container #message	#message_info span{font-size: 26px; line-height: 29px;}
+
+#gameplay #gameplay_panel #powerups_container .powerup_container #message	#message_close	{ left:100%; margin-left: 470px; width:  78px; height: 78px; top: 50%; margin-top: -38px; z-index: 6}
+#gameplay #gameplay_panel #powerups_container #owned_powerup { background-color: white; width: 30px; height: 30px; border-radius: 15px; text-align: center;  line-height: 2; position: absolute; right: 10px; bottom: -4px; z-index: 5; visibility: hidden; color:rgb(29,32,31); font-family: 'Open sans';}

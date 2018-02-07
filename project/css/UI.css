@@ -1,0 +1,98 @@
+/*
+ * HTML5 ENGINE AND GAME CREATED BY GAME CLOUD
+ * http://gamecloudnetwork.com
+ */
+
+/* global UI classes go in here */
+/* preloading image used by get preloaded images htmlgenerator function */
+.preloading_image{ width:32px; height:32px; position:absolute; left:50%; top:50%; margin-left:-16px; margin-top:-16px; -moz-animation:spin 1s infinite ease-in-out; -webkit-animation:spin 1s infinite ease-in-out; }
+@-webkit-keyframes spin { 0% { -webkit-transform:rotate(0deg); } 100% { -webkit-transform:rotate(360deg); } }
+
+/* disable images */
+img{ -moz-user-select: none; -webkit-user-select: none; user-select: none; }
+
+/* some good scroll bars for iscroll */
+.base_scollbarH{ position:absolute; z-index:100;height:12px;bottom:1px;left:0px;right:0px; }
+.base_scollbarH>div{ position:absolute; z-index:100;height:100%;background:rgba(50,194,220,.9);-webkit-background-clip:padding-box;-moz-background-clip:padding-box;-o-background-clip:padding-box;background-clip:padding-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box; }
+.base_scollbarV{ position:absolute; z-index:100;width:8px;bottom:7px;top:2px;right:1px; }
+.base_scollbarV>div{ position:absolute; z-index:100;width:100%;background:rgba(50,194,220,.9);-webkit-background-clip:padding-box;-moz-background-clip:padding-box;-o-background-clip:padding-box;background-clip:padding-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box; }
+
+
+
+.base_scollbar_b_H { position:absolute; z-index:100;height:8px;top:0px;left:0px;right:0px; }
+.base_scollbar_b_H > div{ position:absolute; z-index:100;height:100%;background:rgba(50,194,220,.9);-webkit-background-clip:padding-box;-moz-background-clip:padding-box;-o-background-clip:padding-box;background-clip:padding-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box; }
+.base_scollbar_b_V { position:absolute; z-index:100;width:6px;bottom:7px;top:2px;right:0px; }
+.base_scollbar_b_V > div{ position:absolute; z-index:100;width:100%;background:#666666;-webkit-background-clip:padding-box;-moz-background-clip:padding-box;-o-background-clip:padding-box;background-clip:padding-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box; }
+
+.ui_full_width{width:100%;}
+.ui_full_height{height:100%;}
+.ui_half_width{width:50%;}
+.ui_half_height{height:50%;}
+.ui_pointer_on{ pointer-events:all; }
+.ui_pointer_off{ pointer-events:none; }
+.ui_message{ position:absolute; }
+.ui_screen{ position:absolute; width:100%; height:100%; pointer-events:auto; }
+.ui_center{ left:50%; top:50%; position:absolute; }
+.ui_center_horizontal{ left:50%;  position:absolute; }
+.ui_center_vertical{ top:50%; position:absolute; }
+.ui_absolute{ position:absolute; }
+.ui_relative{ position:relative; }
+.ui_verticalcenteredtext_setheight{display:table; height:50%;}
+.ui_verticalcenteredtext_setheight span{display:table-cell; vertical-align:middle;}
+
+.ui_verticalcenteredtext{display:table; height:100%;}
+.ui_verticalcenteredtext span{display:table-cell; vertical-align:middle;}
+.ui_verticalcenteredtext img{display:table-cell; vertical-align:middle;}
+
+.ui_visible { visibility: visible}
+.ui_hidden { visibility: hidden }
+
+.ui_borderboxsizing{ box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; }
+.ui_roundedsmall{-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;}
+.ui_border{border-style: solid; border-color: #e6e6e6;}
+.ui_border_error{border-style: solid; border-color: #e51f1a;}
+.ui_border_select{border-style: solid; border-color: #06d44e;}
+.ui_cursor{ cursor:pointer; }
+
+.ui_float_left{ float:left; }
+.ui_float_right{ float:right; }
+.ui_float_none{ float:none; }
+
+.ui_select_a{
+    background-color:#FFFFFF;
+    background:#FFFFFF;
+
+    border-radius:0px;
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    border-radius:0px;
+    border-color:#CCCCCC;
+    border-radius:5px;
+    border-width:2px;
+    border:solid;
+    outline:none;
+    display: inline-block;
+    cursor:pointer;
+    height:50px;
+
+    color:#555555;
+
+    font-family:'Open Sans'
+
+
+}
+
+.ui_underhud_screen{ margin-top:80px; position:absolute; pointer-events:auto; }
+
+.progressBar #forground_container
+{
+    -webkit-transition: width 1.5s ease-in-out;
+    -moz-transition: width 1.5s ease-in-out;
+    -o-transition: width 1.5s ease-in-out;
+    transition: width 1.5s ease-in-out;
+}
+
+.ui_default_tab{ cursor:pointer; position:relative; float:left; padding-left: 20px; padding-right: 20px; background-color:#FFFFFF; border-style: solid; border-color: #CCCCCC; border-width:2px; border-radius:3px; display:table; height:62px; margin-right:15px; }
+.ui_default_tab span{display:table-cell; vertical-align:middle;}

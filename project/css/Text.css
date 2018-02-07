@@ -1,0 +1,99 @@
+/*
+ * HTML5 ENGINE AND GAME CREATED BY GAME CLOUD
+ * http://gamecloudnetwork.com
+ */
+
+/* global text classes go in here */
+@font-face { font-family: 'SohoStd-BoldItalic'; src: url('fonts/soho/276BCD_0_0.eot');src: url('fonts/soho/276BCD_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/soho/276BCD_0_0.woff') format('woff'),url('fonts/soho/276BCD_0_0.ttf') format('truetype'); }
+@font-face { font-family: 'SohoStd-ExtraBoldItalic'; src: url('fonts/soho/276BCD_1_0.eot');src: url('fonts/soho/276BCD_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/soho/276BCD_1_0.woff') format('woff'),url('fonts/soho/276BCD_1_0.ttf') format('truetype'); }
+@font-face { font-family: "Interstate";src:url("fonts/interstate/interstate.eot");src:url("fonts/interstate/interstate.eot?")format("embedded-opentype"),url("fonts/interstate/interstate.woff")format("woff"),url("fonts/interstate/interstate.ttf")format("truetype");font-style:normal;font-weight:normal; }
+@font-face { font-family: "Interstate_bold";src:url("fonts/interstatebold/interstate_bold.eot");src:url("fonts/interstatebold/interstate_bold.eot?")format("embedded-opentype"),url("fonts/interstatebold/interstate_bold.woff")format("woff"),url("fonts/interstatebold/interstate_bold.ttf")format("truetype");font-style:normal;font-weight:bold; }
+@font-face { font-family: "Interstate_black";src:url("fonts/interstateblack/interstate_black.eot");src:url("fonts/interstateblack/interstate_black.eot?")format("embedded-opentype"),url("fonts/interstateblack/interstate_black.woff")format("woff"),url("fonts/interstateblack/interstate_black.ttf")format("truetype");font-style:normal;font-weight:normal; }
+
+
+/*Bingo Fonts*/
+.font_bevan { font-family: "Bevan"; }
+
+
+.font_roboto_slab_300		{ font-family: 'Roboto Slab', serif; font-weight: 300; }
+.font_roboto_slab	{ font-family: 'Roboto Slab', serif; font-weight: 300; }
+.font_roboto_slab_400	{ font-family: 'Roboto Slab', serif; font-weight: 400; }
+.font_roboto_slab_700	{ font-family: 'Roboto Slab', serif; font-weight: 700; }
+
+
+.font_k{color:#ffe065;}
+.font_white{ color:#FFFFFF; }
+.font_black{ color:#000000; }
+.font_grey{ color:#363636; }
+.font_lightgrey{ color:#a5a5a5; }
+.font_blue{ color:#3dc5df; }
+.font_blue_xp{ color:#2E3192; }
+.font_blue_level{ color:#466FFA; }
+.font_blue_number{ color:#513CF0; }
+.font_skyblue {color:#008CF7;}
+.font_orange {color:#FFA216;}
+.font_orange_powerups {color:#FCC556;}
+.font_orange_coins {color:#ED4300;}
+.font_darkorange{color:#FB8F32;}
+.font_grey_place{ color:rgba(32,32,32,0.3); }
+.font_green{ color:#1CB74A; }
+.font_green_lucky{ color:#006837; }
+.font_green_title{ color:#1AE042; }
+.font_greenPlay{color:#006838;}
+.font_lightgreen { color:#73FF8F }
+.font_darkgreen {color:#138042}
+.font_softgreen { color:#00AA5D }
+.font_creamgreen {color:#A1FFAA}
+.font_loadergreen {color:#8DC63F}
+.font_red{ color:#FF5E39; }
+.font_red_button{color:#AF0707;}
+.font_yellow_quit{ color:#E0C67C;}
+.font_yellow_score{ color:#E8C051;}
+.font_yellow{ color:#FFDD00; }
+.font_yellow_dab{ color:#FBEE8D; }
+.font_yellow_next{ color:#FFF59C; }
+.font_yellow_popup{ color:#FFEE8A; }
+.font_yellow_card{ color:rgb(255,245,156); }
+.font_fuchsia { color:#FF0062 }
+.font_violet { color:#8D00B0 }
+.font_uppercase{ text-transform:uppercase;  }
+.font_color_powerup1 {color:#1BCE3D;}
+.font_color_powerup2 {color:#F76120;}
+.font_color_powerup3 {color:#FD4B62;}
+
+.font_xxsmall{ font-size:8px; }
+.font_xsmall{ font-size:10px; }
+.font_small{ font-size:12px; }
+.font_medium{ font-size:14px; }
+.font_large{ font-size:18px; }
+.font_size_20 {font-size: 20px;}
+.font_size_22 {font-size: 22px;}
+.font_size_25 {font-size: 25px;}
+.font_size_28 {font-size:28px;}
+.font_xlarge{ font-size:32px; }
+.font_xxlarge{ font-size:40px; }
+.font_size_30 {font-size: 30px;}
+.font_size_35 {font-size: 35px;}
+.font_size_36 {font-size: 36px;}
+.font_size_38 {font-size: 38px;}
+.font_size_40 {font-size: 40px;}
+.font_size_42 {font-size: 42px;}
+.font_size_45 {font-size: 45px;}
+.font_size_48 {font-size: 48px;}
+.font_size_50 {font-size: 50px;}
+.font_size_56 {font-size:56px;}
+.font_size_58 {font-size:58px;}
+.font_size_60 {font-size: 60px; }
+.font_xxxlarge{ font-size: 55px; }
+.font_size_70 { font-size: 70px;}
+.font_size_80 {font-size:80px;}
+.font_size_90 {font-size: 90px; }
+.font_size_140 {font-size: 120px; }
+.font_pause { font-size: 96px; }
+.font_gameplayScore{ font-size:100px; }
+.font_countdown{ font-size:120px; }
+.font_message{ font-size:60px; }
+
+.font_spacing_3{ letter-spacing: 3px; }
+.text_optimize_legibility{text-rendering: optimizeLegibility; -webkit-font-smoothing:antialiased; font-smoothing:antialiased; -moz-font-smoothing:antialiased}
+

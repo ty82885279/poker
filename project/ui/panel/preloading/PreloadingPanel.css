@@ -1,0 +1,16 @@
+/*
+ * HTML5 ENGINE AND GAME CREATED BY GAME CLOUD
+ * http://gamecloudnetwork.com
+ */
+
+#preloading_panel{background-image:url("../../../../assets/ui/BG_Vegas.jpg"); background-size:cover;}
+#preloading_panel #loading_container{ position: absolute; left: 10px; width: 300px; top: 10px; text-align: left; }
+#preloading_panel #loading_label_container {position: absolute; width: 100%; height: 115px; text-align: center; top: 50%; margin-top: -57.5px;}
+#preloading_panel #loading_image {position: absolute; width: 172px; height: 172px; bottom: 40px; right: 40px;}
+#preloading_panel #loading_img {position: absolute;}
+#preloading_panel #preloadDot { position: absolute; width: 85px; height: 212px; top:-40px; left:34px;  }
+#preloading_panel #preloadDot img { position: absolute; top:10px; }
+
+#preloading_panel #loading_container{position:absolute;top:270px;width:100%;text-align:center;}
+
+.chip_size{width: 65px; height: 65px;}

@@ -1,0 +1,25 @@
+/*
+ * HTML5 ENGINE AND GAME CREATED BY GAME CLOUD
+ * http://gamecloudnetwork.com
+ */
+
+#pause_view { pointer-events:auto; }
+#pause_view #background {position: absolute; width: 100%; height: 100%;  z-index: -1;  width: 100%; height: 100%; background-color: rgba(32,32,32,0.65);}
+
+#pause_view #pause_Container {pointer-events:auto; position: absolute; width: 1137px; height: 640px; top:   50%; margin-top: -320px;  left:50%;  margin-left: -568px;}
+#pause_view #pause_Container #cross_button  	{top:18px; width: 102px; height:  97px; position: absolute; left:880px;}
+#pause_view #pause_Container #title_bg 			{top:35px; width: 750px; height: 542px; text-align: center;  ; position: absolute; left: 50%; margin-left: -375px}
+#pause_view #pause_Container #title 			{top:180px; width: 100%; height: 90px; text-align: center;  position: absolute; }
+#pause_view #pause_Container #buttons_container {position: absolute; top:270px; left:50%; width: 400px; margin-left: -200px;}
+
+#pause_view #pause_Container #buttons_container #continue_button_container {position: absolute; top: 5px; left:50%;  margin-left: -236px; width: 498px; height: 128px; cursor:pointer;}
+#pause_view #pause_Container #buttons_container #continue_button_container #continue_button{  width: 100%; height: 100%; }
+
+#pause_view #pause_Container #buttons_container #quit_button_container {position: absolute; top:130px; left:50%; margin-left: -236px; width: 498px; height: 128px; cursor:pointer;}
+#pause_view #pause_Container #buttons_container #quit_button_container #quit_button{  width: 100%; height: 100%; }
+
+
+
+.pause_view_buttons_text {position: absolute; top:60% !important; margin-top:-49px; width: 100%; text-align: center;text-rendering: optimizeLegibility}
+.pause_view_buttons_quit {position: absolute; top:50% !important; margin-top:-49px; width: 100%; text-align: center;text-rendering: optimizeLegibility}
+.pause_view_buttons_more {position: absolute; top:60% !important; margin-top:-49px; width: 100%; text-align: center;text-rendering: optimizeLegibility}
